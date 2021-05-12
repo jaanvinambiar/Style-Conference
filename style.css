@@ -1,0 +1,815 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#first{
+    background-color:#7d4d94;
+}
+.nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.nav::before{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 330px;
+    margin-left: 55px;
+    position: absolute;
+    background: #dfb6f2;
+}
+.one, .two{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+hr{
+    background: #dfb6f2;
+    width: 70%;
+    height: 5px;
+    border: none;
+}
+.one  h3{
+    font-size: 45px;
+    font-family: 'Source Serif Pro', serif;
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 3px;
+    margin-right: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.one h3:hover{
+    color: #dfb6f2;
+}
+.two{
+    text-align: right;
+    margin-right: 10px;
+}
+.two h3{
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #dfb6f2;
+}
+.register{
+    margin: 40px auto;
+    text-align: center;
+}
+.register h3{
+    color: #dfb6f2;
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 10px 10px;
+    letter-spacing: 3px;
+}
+.register p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+.btn{
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.btn a{
+    width: 200px;
+    height: 70px;
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    margin: 0px 100px;
+    margin-bottom: 10px;
+    padding: 22px 10px;
+    font-size: 18px;
+    word-spacing: 4px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+.btn a:hover{
+    background: white;
+    color: #7d4d94;
+}
+.menue ul{
+    margin-top: 25px;
+}
+.menue ul li{
+    display: inline;
+    padding-left: 15px;
+    float: inline-start;
+}
+.menue ul li a{
+    color: white;
+}
+.menue ul li a:hover{
+    color: #dfb6f2;
+}
+/*Section 2*/
+#second{
+    display: flex;
+    width: 80%;
+    margin: 100px auto;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+#container{
+    flex-basis: 50%;
+    padding: 10px ;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.schedule img, .speaker img, .venue img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+.speaker{ 
+    margin-right: 40px;
+    margin-left: 30px;
+}
+.schedule{
+    margin-right: 40px;
+}
+h5{
+    color: #dfb6f2;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+h2{
+    color: #7d4d94;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+h2:hover{
+    color: #c0a7cc;
+}
+.schedule p, .speaker p, .venue p{
+    color: rgb(156, 156, 156);
+}
+/*Footer*/
+.navb{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#foot{
+    background: #7d4d94;
+}
+.head{
+    color: #dfb6f2;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.list ul{
+    margin-top: 60px;
+}
+.list ul li{
+    display: inline;
+    padding-left: 15px;
+    float: inline-start;
+}
+.list ul li a{
+    color: white;
+    font-size: 15px;
+}
+.list ul li a:hover{
+    color: #dfb6f2;
+}
+/*Speakers*/
+.speak{
+    background: linear-gradient(to right, rgb(226, 183, 230), beige);
+    margin-bottom: 90px;
+}
+.speak h4{
+    color: #642e7c;
+    font-size: 40px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.speak p{
+    color: rgb(99, 96, 96);
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+}
+.sec{
+    margin-top: 40px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+#people{
+    margin-left: 140px;
+}
+.des{
+    flex-basis: 50%;
+}
+.des h4{
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #7d4d94;
+    letter-spacing: 2px;
+}
+.des h6{
+    padding-bottom: 20px;
+    color: #dfb6f2;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.des p{
+    color: rgb(99, 96, 96);
+    font-size: 18px;
+}
+.image{
+    margin-right: 150px;
+    padding-right: 130px;
+    margin-left: 800px;
+    margin-top: 180px;
+    width: 250px;
+    height: 150px;
+    background: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border: 0.5px solid #dbd9db;
+    border-radius: 5px;
+}
+.image img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 60px
+}
+.image p{
+    color: #5c4b66;
+    padding-top: 100px;
+    padding-left: 90px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.image p:hover{
+    color: #c4bebe;
+}
+/*Register*/
+#info{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+.details{
+    flex-basis: 50%;
+    margin-bottom: 150px;
+    margin-left: 70px;
+}
+.details h4{
+    color: #7d4d94;
+    padding-bottom: 10px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.details h6{
+    color: #dfb6f2;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.details  p{
+    color: #7a7676;
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.items{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.items ul li{
+    color: #7a7676;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form{
+    margin-right: 40px;
+}
+form#register{
+    padding-right: 200px;
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #7d4d94;
+}
+
+input,textarea{
+    border: 1px solid #c4bebe;
+    border-radius: 5px;
+}
+::placeholder{
+    padding-left: 10px;
+    font-size: 15px;
+}
+input#name, input#email{
+    height: 40px;
+    width: 290px;
+    margin-top: 5px;
+}
+input#pass{
+    width: 60px;
+    height: 30px;
+}
+textarea#text{
+    width: 290px;
+    height: 100px;
+}
+input#submit{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #907a9b;
+    color: white;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input#submit:hover{
+    background-color: #aa9ab3;
+}
+/*Venue*/
+#place{
+    margin-left: 140px;
+}
+.theatre{
+    margin-top: 40px;
+    margin-left: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.in{
+    flex-basis: 50%;
+    margin-left: 100px;
+}
+.in h4{
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #7d4d94;
+    letter-spacing: 2px;
+}
+.in p{
+    padding-bottom: 20px;
+    color: #7a7676;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.in a {
+    color: #7d4d94;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #aa9ab3;
+    font-size: 20px;
+}
+.in a:hover{
+    color: #907a9b;
+}
+/*Venue end*/
+/*schedule*/
+#schedule{
+    display: flex;
+    width: 80%;
+    margin-left: 100px;
+    justify-content: space-between;
+    margin-bottom: 300px;
+}
+.sh{
+    flex-basis: 50%;
+}
+.sch{
+    padding-top: 0px;
+}
+.work{
+    width: 300px;
+    height: 250px;
+    margin-left: 90px;
+    margin-top: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    position: relative;
+}
+.work h1{
+    margin-left: 30px;
+    font-size: 30px;
+    color: #642e7c;
+}
+.work h3{
+    line-height: 70px;
+    margin-left: 100px;
+    color: rgb(165, 160, 160);
+}
+.event{
+    position: absolute;
+    margin-left: 350px;
+    top: 450px;
+    margin-top: 0px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.event h4{
+    padding-top: 50px;
+    font-size: 22px;
+    color: rgb(165, 160, 160);
+    position: relative;
+}
+.event h4::before{
+    content: "";
+    display: block;
+    height: 0.5px;
+    top: 140%;
+    left: 0;
+    position: absolute;
+    width: 700px;
+    background-color: rgb(165, 160, 160);
+}
+.event h3{
+    color: #642e7c;
+    padding-top: 55px;
+    font-size: 22px;
+    position: relative;
+}
+.event h3::before{
+    content: "";
+    display: block;
+    height: 0.5px;
+    top: 140%;
+    left: 0;
+    position: absolute;
+    width: 700px;
+    background-color: rgb(165, 160, 160);
+}
+.event a{
+    color: rgb(156, 156, 156);
+    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.event a:hover{
+    color: #c4bebe;
+}
+/*schedule end*/
+@media screen and (max-width: 1030px){
+    #first{
+        width: 1050px;
+    }
+    .one h3{
+        font-size: 35px;
+        margin-left: 100px;
+    }
+    .nav::before{
+        margin-left: 100px;
+        width: 230px;
+    }
+    .nav{
+        margin-left: 10px;
+    }
+    .two{
+        margin-left: 55px;
+    }
+    .two h3{
+        font-size: 20px;
+        margin-top: 55px;
+    }
+    .menue ul{
+        width: 400px;
+        margin-top: 20px;
+    }
+    .menue ul li{
+        font-size: 15px;
+        padding-left: 8px;
+    }
+    .register h3{
+        font-size: 27px;
+    }
+    .register p{
+        font-size: 20px;
+    }
+    .btn{
+        margin-top: 35px;
+    }
+    .btn a{
+        font-size: 17px;
+        height: 65px;
+    }
+    #second{
+        width: 900px;
+        margin-left: 50px;
+    }
+    #container{
+        flex-basis: 33%;
+        padding: 15px;
+    }
+    .schedule img, .speaker img, .venue img{
+        width: 250px;
+        height: 200px;
+    }
+    .speaker{
+        padding-right: 32px;
+    }
+    .schedule{
+        padding-right: 32px;
+    }
+    .schedule p, .speaker p, .venue p{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #foot{
+        overflow: hidden;
+        width: 1050px;
+    }
+    .navb{
+        margin-left: 80px;
+    }
+    .list{
+        width: 400px;
+        padding-left: 100px;
+    }
+    .head p{
+        padding-left: 30px;
+        font-size: 20px;
+    }
+    .list ul{
+        width: 500px;
+    }
+    .list ul li{
+        padding-left: 10px;
+    }
+    .list ul li a{
+        font-size: 15px;
+    }
+    .speak{
+        margin-top: 50px;
+    }
+    .speak p{
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+    .speak h4{
+        font-size: 35px;
+        padding-top: 40px;
+    }
+    #people{
+        overflow-x: hidden;
+        margin-left: 60px;
+    }
+    .des{
+        margin-left: 0px;
+    }
+    .des h4{
+        font-size: 25px;
+    }
+    .image{
+        margin-right: 90px;
+        margin-left: 700px;
+    }
+    #schedule{
+        width: 900px;
+        margin-left: 0px;
+    }
+    .event h4{
+        font-size: 30px;
+    }
+    .event h4::before{
+        width: 550px;
+    }
+    .event h3{
+        font-size: 30px;
+    }
+    .event h3::before{
+        width: 550px;
+    }
+    #place{
+        width: 900px;
+        margin-left: 20px;
+    }
+    .in h4{
+        font-size: 25px;
+    }
+    .in p{
+        font-size: 15px;
+    }
+    .in a {
+        font-size: 18px;
+    }
+    .details{
+        width: 400px;
+    }
+    .details h4{
+        width: 400px;
+    }
+    .details h6{
+        font-size: 20px;
+    }
+    form#register{
+        padding-right: 0px;
+    }
+    .form{
+        margin-left: 90px;
+    }
+}
+@media screen and (max-width: 770px){
+    #first{
+        width: 1090px;
+    }
+    .one h3{
+        font-size: 40px;
+        margin-left: 100px;
+    }
+    .nav::before{
+        margin-left: 100px;
+        width: 290px;
+    }
+    .nav{
+        margin-left: 10px;
+    }
+    .two h3{
+        font-size: 25px;
+        margin-top: 55px;
+    }
+    .menue ul{
+        width: 500px;
+        margin-top: 20px;
+    }
+    .menue ul li{
+        font-size: 20px;
+        padding-left: 8px;
+    }
+    .register h3{
+        font-size: 30px;
+    }
+    .register p{
+        font-size: 25px;
+    }
+    .btn{
+        margin-top: 35px;
+    }
+    .btn a{
+        font-size: 22px;
+        height: 90px;
+    }
+    #second{
+        width: 900px;
+        margin-left: 50px;
+    }
+    #container{
+        flex-basis: 33%;
+        padding: 15px;
+    }
+    .schedule img, .speaker img, .venue img{
+        width: 270px;
+        height: 200px;
+    }
+    .speaker{
+        padding-right: 27px;
+    }
+    .schedule{
+        padding-right: 27px;
+    }
+    .schedule p, .speaker p, .venue p{
+        font-size: 22px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    #foot{
+        overflow: hidden;
+        width: 1090px;
+    }
+    .navb{
+        margin-left: 80px;
+    }
+    .list{
+        width: 500px;
+        padding-left: 80px;
+    }
+    .head p{
+        padding-left: 30px;
+        font-size: 25px;
+    }
+    .list ul{
+        width: 600px;
+    }
+    .list ul li{
+        padding-left: 5px;
+    }
+    .list ul li a{
+        font-size: 20px;
+    }
+    .speak{
+        margin-top: 50px;
+    }
+    .speak p{
+        font-size: 25px;
+        letter-spacing: 0px;
+    }
+    .speak h4{
+        font-size: 40px;
+        padding-top: 20px;
+    }
+    #people{
+        overflow-x: hidden;
+        margin-left: 60px;
+    }
+    .des{
+        margin-left: 0px;
+    }
+    .des h4{
+        font-size: 40px;
+    }
+    .des p{
+        font-size: 25px;
+        width: 500px;
+    }
+    .des h6{
+        font-size: 18px;
+    }
+    .image{
+        margin-right: 50px;
+        margin-left: 750px;
+    }
+    .image{
+        width: 350px;
+        height: 250px;
+    }
+    .image img{
+        width: 200px;
+        height: 200px;
+    }
+    .image p{
+        padding-top: 180px;
+        font-size: 25px;
+    }
+    #schedule{
+        width: 900px;
+        margin-left: 0px;
+    }
+    .event h4::before{
+        width: 600px;
+    }
+    .event h3::before{
+        width: 600px;
+        top: 190%;
+    }
+    .event a{
+        font-size: 18px;
+    }
+    #place{
+        width: 900px;
+        margin-left: 50px;
+    }
+    .in h4{
+        font-size: 35px;
+    }
+    .in p{
+        font-size: 25px;
+    }
+    .in a {
+        font-size: 25px;
+    }
+    .details{
+        width: 500px;
+    }
+    .details h4{
+        width: 500px;
+    }
+    .details h6{
+        font-size: 20px;
+    }
+    form#register{
+        padding-right: 0px;
+    }
+    .form{
+        margin-left: 90px;
+    }
+}
