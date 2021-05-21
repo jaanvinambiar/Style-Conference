@@ -396,82 +396,55 @@ input#submit:hover{
 /*Venue end*/
 /*schedule*/
 #schedule{
-    display: flex;
     width: 80%;
     margin-left: 100px;
-    justify-content: space-between;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 .sh{
-    flex-basis: 50%;
+    padding-left: 40px;
 }
-.sch{
-    padding-top: 0px;
+.sh1{
+    padding-left: 40px;
+    padding-top: 60px;
 }
-.work{
-    width: 300px;
-    height: 250px;
-    margin-left: 90px;
-    margin-top: 0px;
-    font-family: 'Cormorant Garamond', serif;
-    position: relative;
+tr:nth-child(2), td{
+    border-bottom: 1px solid #dbd9db;
 }
-.work h1{
-    margin-left: 30px;
+tr.sp:last-child td{
+    border-bottom: none;
+}
+thead th{
+    padding-right: 50px;
     font-size: 30px;
-    color: #642e7c;
+    color: #907a9b;
 }
-.work h3{
-    line-height: 70px;
-    margin-left: 100px;
-    color: rgb(165, 160, 160);
-}
-.event{
-    position: absolute;
-    margin-left: 350px;
-    top: 450px;
-    margin-top: 0px;
-    font-family: 'Cormorant Garamond', serif;
-}
-.event h4{
-    padding-top: 50px;
-    font-size: 22px;
-    color: rgb(165, 160, 160);
-    position: relative;
-}
-.event h4::before{
-    content: "";
-    display: block;
-    height: 0.5px;
-    top: 140%;
-    left: 0;
-    position: absolute;
-    width: 700px;
-    background-color: rgb(165, 160, 160);
-}
-.event h3{
-    color: #642e7c;
-    padding-top: 55px;
-    font-size: 22px;
-    position: relative;
-}
-.event h3::before{
-    content: "";
-    display: block;
-    height: 0.5px;
-    top: 140%;
-    left: 0;
-    position: absolute;
-    width: 700px;
-    background-color: rgb(165, 160, 160);
-}
-.event a{
-    color: rgb(156, 156, 156);
-    font-size: 15px;
-    font-family: 'Cormorant Garamond', serif;
-}
-.event a:hover{
+thead td, tr h4{
+    font-size: 20px;
     color: #c4bebe;
+}
+thead tr{
+    line-height: 50px;
+}
+tbody th{
+    color: #aa9ab3;
+    padding-left: 30px;
+}
+.schi{
+    line-height: 60px;
+    font-size: 20px;
+    color: #c4bebe;
+}
+td a h4{
+    font-size: 18px;
+    color: #9d7daf;
+    padding-top: 5px;
+}
+td a{
+    font-size: 15px;
+    color: #c0a7cc;
+}
+.sh1 tbody tr td{
+    padding-right: 150px;
 }
 /*schedule end*/
 @media screen and (max-width: 1030px){
@@ -811,5 +784,13 @@ input#submit:hover{
     }
     .form{
         margin-left: 90px;
+    }
+}
+@media screen and (max-width: 430px){
+    .two h3{
+        font-size: 32px;
+    }
+    .menue ul li{
+        font-size: 25px;
     }
 }
